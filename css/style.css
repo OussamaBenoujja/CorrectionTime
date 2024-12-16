@@ -1,0 +1,257 @@
+body{
+    background-image: url(/assets/imgs/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+form {
+    width: 26em;
+    height: 43em;
+    position: absolute;
+    top: 6em;
+    left: 25em;
+    padding-left: 144px;
+    background-image: url('/assets/imgs/form.png');
+    background-size: 580px 1000px;
+    border-radius:3em;
+    box-shadow:0px 0px 36px 0px orange;
+    display:none;
+    color: rgb(240, 248, 255);
+}
+.img-ajoute{
+    width:3em;
+    height:3em;
+}
+.img-ajoute:hover{
+    transform: scale(1.5);
+    transition:0.3s;
+}
+#boutton-ajoute{
+  background:none;
+  border:none;
+  cursor: pointer;
+}
+#boutton-ajoutee{
+    background:none;
+    border:none;
+    cursor: pointer;
+    background-color: rgb(6, 96, 36);
+    color: black;
+    border-radius:20px;
+    height:30px;
+}
+#boutton-ajoutee:hover{
+  background:none;
+  border:none;
+  cursor: pointer;
+  background-color: rgb(27, 185, 80);
+  color: black;
+  border-radius:20px;
+  height:30px;
+}
+#boutton-ajoutee:active{
+  background:none;
+  border:none;
+  cursor: pointer;
+  background-color: rgb(18, 44, 26);
+  color: black;
+  border-radius:20px;
+  height:30px;
+}
+.count{
+    display: flex;
+    justify-content: space-around;
+}
+.left{
+    background-image: url(/assets/imgs/stade2.jpg);
+    background-size: cover;
+    width:38.5em;
+    height:60em;
+    display: grid;
+    box-shadow:0px 0px 36px 0px;
+    border-radius:1em;
+}
+#ajouter-gk{
+    justify-self: center;
+    margin: 6em 0em 0em 1em;
+}
+#defense{
+    justify-self: center;
+    margin: -6em;
+}
+#defense button{
+  padding:2em;
+}
+#mediane{
+    justify-self: center;
+    margin: -7.3em;
+}
+#mediane button{
+    padding:2em;
+  }
+  #attaque{
+    justify-self: center;
+    margin: -3.3em;
+  }
+  #attaque button{
+    padding:2em;
+  }
+  .card-player{
+    background-image: url('/assets/imgs/badge_gold.png');
+    background-size:cover;
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    cursor: pointer;
+   
+    
+  }
+  .card-player img{
+    width: 7em;
+    height: 6em;
+    margin-left: 33px;
+    margin-top: 36px;
+  }
+.post-total{
+  margin-top: -80px;
+  margin-left: 28px;
+  }
+  .flag-club{
+    margin-top: -26px;
+    margin-left: 19px;
+  }
+  .flag-club span img{
+    width: 17px;
+    height: 15px;
+    margin: 30px 0px 1px 1px;
+  }
+  .statistiques span,pre{
+    font-size:8px;
+    margin: 0px 0px 0px 6px;
+  }
+
+  .statistiques{
+    margin: 10px 0px 0px 16px;
+  }
+  .coun-play{
+    width: auto;
+    position: absolute;
+    top:12px;
+    border-radius:2em;
+    background-color: rgb(62, 56, 56);
+    box-shadow:0px 0px 36px 0px;
+    display:none;
+  }
+  
+  .changment{
+    margin-top:10px;
+    width:14em;
+    height:auto;
+    border-radius:2em;
+    box-shadow:0px 0px 36px 0px;
+    background-color: rgb(89, 142, 76);
+  }
+  .changment h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  #close{
+    width:5em;
+    background-color: red;
+    border:none;
+    border-radius:1em;
+    cursor: pointer;
+  }
+  .position-player{
+    background-color: gold;
+    border-radius: 2em;
+  }
+  .position-player:hover{
+    background-color: goldenrod;
+  }
+
+  .supp{
+    border: none;
+    margin-top:2em;
+    border-radius:1em;
+    cursor: pointer;
+  }
+  .add{
+    border: none;
+    border-radius:1em;
+    cursor: pointer;
+  }
+  #attaque{
+    margin-left:15px;
+  }
+  #defense{
+    margin-left:15px;
+  }
+  #mediane{
+    margin-left:-70px;
+  }
+  input{
+    width:28em;
+    margin:0.5em;
+    outline: none;
+    border-radius: 1em;
+    border: none;
+    background-color:rgba(53, 52, 52, 0.632);
+  }
+  input::placeholder{
+    color:rgb(77, 54, 13);
+  }
+  select{
+    background-color: orangered;
+    width:9em;
+    border:none;
+    border-radius:2em;
+  }
+  label{
+    color: black;
+  }
+.statistiques_pl{
+  font-size:11px;
+  margin-left: 34px;
+}
+#closer{
+  background-color: rgb(32, 29, 29);
+  color: orange;
+  border:none;
+  outline:none;
+  height:20px;
+  border-radius:10px;
+  cursor: pointer;
+}
+#subinfo{
+  width:10em;
+  height:4em;
+  background-color: orangered;
+  border:none;
+  border-radius:2em;
+}
+#subinfo:active{
+  width:10em;
+  height:4em;
+  background-color: rgb(80, 39, 24);
+  border:none;
+  border-radius:2em;
+}
+.all-info{
+  margin-left:12px;
+}
+#blue{
+  width:10em;
+  background-color:rgb(0, 255, 30);
+  border-radius:2em;
+}
+
+.supp_pl,.add_pl{
+border:none;
+border-radius:1em;
+margin-bottom:1em;
+margin-left:1em;
+cursor: pointer;
+}
+#blue{
+  margin-left:2em;
+}

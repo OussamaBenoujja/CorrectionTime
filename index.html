@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUT</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <section class="count">
+        <section class="right">
+            <button id="boutton-ajoutee">
+                Ajouter un nouveau joueur
+            </button>
+            <div class="changment">
+                <h1>changement :</h1>
+
+               
+            </div>
+        </section>
+        <section class="left">
+            <span id="ajouter-gk">
+                <button id="boutton-ajoute">
+                    <img src="/assets/imgs/add.png" alt="player" class="img-ajoute">
+                </button>
+            </span>
+            <div id="defense">
+                <span id="ajouter-rb">
+                    <button id="boutton-ajoute">
+                        <img src="/assets/imgs/add.png" alt="player" class="img-ajoute">
+                    </button>
+                </span>
+                <span id="ajouter-cb-un">
+                    <button id="boutton-ajoute">
+                        <img src="/assets/imgs/add.png" alt="player" class="img-ajoute">
+                    </button>
+                </span>
+                <span id="ajouter-cb-deux">
+                    <button id="boutton-ajoute">
+                        <img src="/assets/imgs/add.png" alt="player" class="img-ajoute">
+                    </button>
+                </span>
+                <span id="ajouter-lb">
+                    <button id="boutton-ajoute">
+                        <img src="/assets/imgs/add.png" alt="player" class="img-ajoute">
+                    </button>
+                </span>
+            </div>
+            <div id="mediane">
+                <span id="ajouter-cm-un">
+                    <button id="boutton-ajoute">
+                        <img src="/assets/imgs/add.png" alt="player"  class="img-ajoute">
+                    </button>
+                </span>
+                <span id="ajouter-cm-deux">
+                    <button id="boutton-ajoute">
+                        <img src="/assets/imgs/add.png" alt="player"  class="img-ajoute">
+                    </button>
+                </span>
+                <span id="ajouter-cm-trois">
+                    <button id="boutton-ajoute">
+                        <img src="/assets/imgs/add.png" alt="player"  class="img-ajoute">
+                    </button>
+                </span>
+            </div>
+            <div id="attaque">
+                <span id="ajouter-lf" >
+                    <button id="boutton-ajoute">
+                        <img src="/assets/imgs/add.png" alt="player" class="img-ajoute">
+                    </button>
+                </span>
+                <span id="ajouter-st">
+                    <button id="boutton-ajoute">
+                        <img src="/assets/imgs/add.png" alt="player"  class="img-ajoute">
+                    </button>
+                </span>
+               <span id="ajouter-rf">
+                    <button id="boutton-ajoute">
+                        <img src="/assets/imgs/add.png" alt="player"  class="img-ajoute">
+                    </button>
+               </span>
+            </div>
+        </section>
+    </section>
+
+    <form id="Formulaire">
+        
+        <button id="closer">Fermer</button>
+        <div class="all-info">
+            <input type="text" maxlength="15" placeholder="Nom et Prénom" id="name_pl" ><br>
+            <label>photo</label><br>
+            <input type="search" id="photo-pl" ><br>
+            <label>nationality</label><br>
+            <input type="search" id="nationality-pl"><br>
+            <label>club</label><br>
+            <input type="search" id="club-pl"><br>
+            <section id="statistique">
+                <label>positionner de joueur</label><br>
+                <select id="position-pl">
+                    <option value="GK">GK</option>
+                    <option value="CB">CB</option>
+                    <option value="LB">LB</option>
+                    <option value="RB">RB</option>
+                    <option value="CM">CM</option>
+                    <option value="LF">LW</option>
+                    <option value="RF">RW</option>
+                    <option value="ST">ST</option>
+                </select><br>
+                <input type="number" max="99" min="40" placeholder="notation" id="notation-pl"><br>
+                <input type="number" max="99" min="40" placeholder="rythme" id="rythme-pl"><br>
+                <input type="number" max="99" min="40" placeholder="tir" id="tir-pl"><br>
+                <input type="number" max="99" min="40" placeholder="passe" id="passe-pl"><br>
+                <input type="number" max="99" min="40" placeholder="dribble" id="dribble-pl"><br>
+                <input type="number" max="99" min="40" placeholder="defense" id="defense-pl"><br>
+                <input type="number" max="99" min="40" placeholder="physique" id="physique-pl"><br>
+                <button  id="subinfo">envoyer</button>
+            </section>
+
+        </div>
+    </form>
+    <div class="coun-play">
+        <button id="close">Fermer</button>
+    </div>
+    <script src="/js/script.js"></script>
+    <script src="/js/data.json"></script>
+</body>
+</html>
